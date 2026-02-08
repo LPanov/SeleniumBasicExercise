@@ -25,12 +25,12 @@ pipeline{
                 }
                 stage("Run Test for Project 2"){
                     steps{
-                        bat 'dotnet test TestProject2/TestProject1.csproj'
+                        bat 'dotnet test TestProject2/TestProject2.csproj'
                     }
                 }
                 stage("Run Test for Project 3"){
                     steps{
-                        bat 'dotnet test TestProject3/TestProject1.csproj'
+                        bat 'dotnet test TestProject3/TestProject3.csproj'
                     }
                 }
             }
